@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> c programming syllabus</title>
+ <style>h2{
+      background-color: darkgreen;
+      color: white;
+      text-align: center;
+    }</style>
+ 
+<style>h3{
+  background-color:dodgerblue;
+color: white;
+text-align:center;}
+</style>
+</head>
+</body>
+<a href =" #CHAPTER 1">
+<h2 > CHAPTER 1: INTRODUCTION TO C PROGRAMMING</h2></a>
+<a href =" #CHAPTER 2">
+<h2 > CHAPTER 2:  DATA TYPE, OPERATION AND EXPRESSION </h2></a>
+<a href =" #CHAPTER 3">
+<h2 > CHAPTER 3:  CONTROL FLOW SYSTEM </h2></a>
+<a href =" #CHAPTER 4">
+<h2 > CHAPTER 4:  FUNCTION  </h2></a>
+<a href =" #CHAPTER 5">
+<h2> CHAPTER 5: ARRAYS AND POINTER </h2></a>
+<a href =" #CHAPTER 6">
+<h2 > CHAPTER 6:  STRUCTURE, UNION AND EHAMS </h2></a>
+<a href =" #CHAPTER 7">
+<h2 > CHAPTER 7:  FILE INPUT/OUTPUT (I/O)</h2></a>
+<br>
+<br>
+<br>
+<h3 id = "CHAPTER 1"> >CHAPTER 1: INTRODUCTION TO C PROGRAMMING </h3>
+<p>
+This foundational 
+chapter sets the stage for larning C. 
+It begins with a brief 
+historical overview of C, its evolution, and 
+its enduring relevance in system programming, embedded systems, and application 
+development.
+Key features like its efficiency, portability, and low-level memory access are highlighted. 
+The typical structure of a C program (preprocessor directives, global declarations, main() function, statements) is explained. 
+The development cycle—writing source code, preprocessing, compiling, linking, and executing—is detailed, often with practical examples using common compilers like GCC.
+Basic elements such as C character set, tokens (keywords, identifiers, constants, strings, operators, special symbols), and the role of comments are thoroughly covered. 
+A practical "Hello World" program serves as the entry point, demonstrating the complete process.</p>
+
+<h3 id = "CHAPTER 2"> CHAPTER 2:  DATA TYPE, OPERATION AND EXPRESSION </h3>
+<p>This chapter is critical for understanding how C handles data. 
+It meticulously explains the fundamental data types: int (for integers, 
+with variations like short, 
+long, long long, unsigned), float and double (for floating-point numbers), 
+char (for characters), and void (for generic pointers or functions returning no value).
+ The concept of type qualifiers (const, volatile, register) and their implications for variable behavior are discussed.
+A comprehensive breakdown of operators includes:<br>
+     * Arithmetic: +, -, *, /, %<br>
+     * Relational: ==, !=, <, >, <=, >=<br>
+     * Logical: && (AND), || (OR), ! (NOT)<br>
+     * Assignment: =, +=, -=, *=, /=, %=, etc.<br>
+     * Increment/Decrement: ++, -- (prefix and postfix)<br>
+     * Bitwise: &, |, ^, ~, <<, >><br>
+     * Conditional (Ternary): ? :<br>
+     * Special: sizeof, & (address-of), * (dereference), . (member access), -> (member access through pointer), , (comma)
+       Operator precedence and associativity rules are detailed to correctly interpret complex expressions. Type casting (implicit and explicit) and the concept of lvalues and rvalues are also covered
+
+<h3 id = "CHAPTER 3" > CHAPTER 3:  CONTROL FLOW SYSTEM </h3>
+<p>This chapter empowers programmers to dictate the execution path of their C programs. It begins with conditional statements:
+     <br>* if: Basic decision-making.</br>
+     <br>* if-else: Handling two possible outcomes.</br>
+     <br>* if-else if-else: Handling multiple conditions in a sequential manner.</br>
+     <br>* switch-case: Efficiently handling multiple choice scenarios based on a single expression, including the use of break and the default case
+       Looping constructs are then introduced for repetitive execution:</br>
+     <br>* for loop: Ideal for iterations where the number of repetitions is known in advance. Detailed explanation of initialization, condition, and increment/decrement parts.</br>
+     <br>* while loop: Suitable for indefinite iterations where the loop continues as long as a condition is true.</br>
+    <br> * do-while loop: Similar to while, but guarantees at least one execution of the loop body.</br>
+       Jump statements (break, continue, goto) are explained with their specific use cases and potential pitfalls (especially goto). Practical examples demonstrate how to combine these statements to solve various programming problems like prime number checking, sum of series,etc</br>
+
+<h3 id = "CHAPTER 4"> CHAPTER 4:  FUNCTION  </h3>
+<p>This chapter introduces the crucial concept of modular programming through functions. It emphasizes the benefits of functions: code reusability, program organization, and easier debugging. Topics include:
+    <br> * Function Declaration (Prototype): Specifying the function's return type, name, and parameters before its definition.</br>
+    <br> * Function Definition: The actual implementation of the function's logic.</br>
+ 
+     <br>* Function Call: Invoking a function to execute its code.</br>
+    <br> * Argument Passing: Detailed explanation of "call by value" (passing copies of arguments) and "call by reference" (passing addresses, enabling modification of original variables).</br>
+    <br> * Return Values: How functions send results back to the caller.
+   <br>  * Scope and Lifetime of Variables: Differentiating between local, global, static, and register variables.</br>
+   <br>  * Recursion: Functions calling themselves, with examples like factorial calculation and Fibonacci series.</br>
+   <br>  * Standard Library Functions: Introduction to commonly used functions from <stdio.h>, <stdlib.h>, <string.h>, <math.h>, etc.</br>
+    <br> * Pointers to Functions: A more advanced topic allowing functions to be passed as arguments or stored in variables.</br>
+
+<h3 id = "CHAPTER 5" > CHAPTER 5: ARRAYS AND POINTER </h3>
+<p>This chapter dives into two of C's most powerful and sometimes challenging features.
+    <br> * Arrays: Explained as contiguous blocks of memory holding elements of the same data type. This includes:</br>
+     <br>  * One-dimensional arrays (declaration, initialization, accessing elements, traversing).</br>
+      <br> * Multi-dimensional arrays (2D arrays/matrices, and higher dimensions).</br>
+     <br>  * Passing arrays to functions.</br>
+      <br> * Strings as character arrays.</br>
+    <br> * Pointers: The core of C's low-level memory manipulation. This section covers:</br>
+      <br> * Pointer declaration and initialization.</br>
+       * The address-of (&) and dereference (*) operators.</br>
+      <br> * Pointer arithmetic (addition, subtraction, comparison).</br>
+      <br> * Relationship between arrays and pointers (arrays decay to pointers).</br>
+      <br> * Pointers to pointers.</br>
+      <br> * Dynamic Memory Allocation: A critical section covering malloc(), calloc(), realloc(), and free() for allocating and deallocating memory during program execution. This enables creation of data structures of variable size.</br>
+     <br>  * Pointers with functions (returning pointers, passing pointers).</br>
+      <br> * Common pointer pitfalls (dangling pointers, null pointers, memory leaks).</br>
+
+<h3 id = "CHAPTER 6" > CHAPTER 6:  STRUCTURE, UNION AND ENUMS </h3>
+     This chapter focuses on creating custom, complex data types in C.
+     <br>* Structures (struct): Allows grouping variables of different data types under a single name. Topics include:
+      <br> * Declaration and definition of structures.
+      <br> * Accessing members using the dot (.) operator.
+     <br>  * Nested structures.
+      <br> * Arrays of structures.
+      <br> * Pointers to structures and the arrow (->) operator.
+      <br> * Passing structures to functions (by value and by reference).
+     <br>  * Self-referential structures (e.g., for linked lists).
+    <br> * Unions (union): Explained as a special data type where all members share the same memory location, optimizing memory usage when only one member is needed at a time. Differences and use cases compared to structures are highlighted.
+   <br>  * Enumerations (enum): Provides a way to assign names to integer constants, making code more readable and maintainable.
+    <br> * typedef: Explained as a mechanism to create aliases for existing data types, improving code readability.
+
+<h3  id = "CHAPTER 7" > CHAPTER 7:  FILE INPUT/OUTPUT (I/O)</h3>
+
+This essential chapter teaches how C programs interact with external files for persistent data storage. It covers:
+    <br> * File Pointers: The concept of FILE* and its role in file operations.
+   <br>  * Opening and Closing Files: Using fopen() to open files (with various modes like "r", "w", "a", "r+", "w+", "a+") and fclose() to release file resources. Error handling for fopen() is crucial.
+   <br>  * Character I/O: Reading and writing single characters using fgetc() and fputc().
+   <br>  * String I/O: Reading and writing strings using fgets() and fputs().
+   <br>  * Formatted I/O: Reading and writing formatted data using fscanf() and fprintf(), similar to scanf() and printf() but for files.
+    <br> * Block I/O (Binary I/O): Reading and writing blocks of data (e.g., structures) using fread() and fwrite(), which are particularly useful for binary files.
+   <br>  * Random Access: Moving the file pointer to specific locations using fseek(), ftell(), and rewind() for non-sequential file access.
+  <br>   * Error handling functions for files (e.g., ferror(), clearerr()).
+    <br> * Distinction between text mode and binary mode file operations.</br>
+
+<br> THANKS FOR VISITING OUR WEBSITE KEEP LEARNING ☺️</br>
+
+
+
+</html>
