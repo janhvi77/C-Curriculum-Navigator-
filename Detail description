@@ -1,0 +1,74 @@
+---
+
+📁 Folder Structure:
+c-programming-syllabus/
+├── code.html
+└── README.md
+
+C Programming Syllabus
+
+This is a structured and comprehensive HTML document that outlines the core syllabus of the C Programming Language. It presents each chapter with detailed content and internal navigation, making it ideal for educational use, revision, or curriculum planning.
+
+📌 Description
+
+The C Programming Syllabus project offers a well-organized presentation of key concepts in the C language. Designed entirely with HTML, it breaks down complex topics into digestible chapters, from basic syntax to file handling. This project is helpful for students, teachers, and self-learners looking to understand the flow and scope of C programming.
+
+🔧 Technologies Used
+
+HTML5 (Only HTML – No CSS/JS frameworks used)
+
+
+📄 Features
+
+Clickable chapter links for easy navigation
+
+Detailed content for each topic:
+
+Introduction to C
+
+Data types, operators, and expressions
+
+Control flow mechanisms
+
+Functions and recursion
+
+Arrays and pointers
+
+Structures, unions, and enums
+
+File I/O operations
+
+
+Semantic structure using headings and paragraphs
+
+Simple inline styling for better readability
+
+
+🚀 How to Use
+
+1. Clone or download the repository.
+
+
+2. Open the code.html file in any modern web browser.
+
+
+3. Click on chapter titles to jump to specific topics.
+
+
+
+📁 Project Structure
+
+c-programming-syllabus/
+├── code.html   # The main HTML file containing the full syllabus
+└── README.md   # Project documentation
+
+🔒 Note
+
+This is a static educational resource. It does not contain interactive scripts or backend processing. You can expand it using CSS or JavaScript for additional functionality like collapsible sections, search, or printable views.
+  demo video🎥 :https://drive.google.com/file/d/19yWx_hONXCGtZ6HYRuGKeT6nb-1Z1m-m/view?usp=drivesdk
+
+📬 Contact
+
+For feedback, improvements, or collaborations:
+📧 Email: [janavikhawalecse@gmail.com]
+🔗 LinkedIn: https://www.linkedin.com/in/janhvi-khawale-820677363/
